@@ -6,11 +6,10 @@ public class calculadora {
     int x, y, resultat;
     char operacio;
 
-    public void calcula() {
+    public void calcula (){
 
         x = numeroX();
         operacio = charOperacio();
-        numeroY();
 
         do {
 
@@ -44,7 +43,7 @@ public class calculadora {
 
         } else if (operacio == 'C') {
 
-            numeroX();
+            calcula();
 
         }
 
@@ -63,7 +62,7 @@ public class calculadora {
 
         System.out.println("Introdueix el tipus d'operació que vols realitzar: ('S' per sumar, 'R' per restar, " +
                 "'P' pel producte i 'D' per la divisió)");
-        operacio = entry.nextLine().charAt(0);
+        operacio = entry.next().charAt(0);
 
         return operacio;
     }
@@ -78,8 +77,9 @@ public class calculadora {
     }
 
     private int suma() {
+
+        numeroY();
         resultat = x + y;
-        System.out.println(resultat);
         x = resultat;
 
         return x;
@@ -87,8 +87,8 @@ public class calculadora {
 
     private int resta() {
 
+        numeroY();
         resultat = x - y;
-        System.out.println(resultat);
         x = resultat;
 
         return x;
@@ -97,8 +97,8 @@ public class calculadora {
 
     private int producte() {
 
+        numeroY();
         resultat = x % y;
-        System.out.println(resultat);
         x = resultat;
 
         return x;
@@ -107,8 +107,8 @@ public class calculadora {
 
     private int divisio() {
 
+        numeroY();
         resultat = x / y;
-        System.out.println(resultat);
         x = resultat;
 
         return x;
@@ -118,9 +118,9 @@ public class calculadora {
     private char accioSeguent() {
 
         System.out.println(resultat + "\nPrem E per a sortir.\nPrem C per tornar a començar.\n" +
-                "Prem un tipus d'operació per a continuar operant ('S' per sumar, 'R' per restar, \" +\n" +
+                "Prem un tipus d'operació per a continuar operant ('S' per sumar, 'R' per restar, \n" +
                 "'P' pel producte i 'D' per la divisió).");
-        operacio = entry.nextLine().charAt(0);
+        operacio = entry.next().charAt(0);
 
         return operacio;
     }

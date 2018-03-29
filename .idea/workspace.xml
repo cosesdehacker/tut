@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a37d114-c2bf-434a-abda-4dec59d6b29f" name="Default" comment="" />
+    <list default="true" id="5a37d114-c2bf-434a-abda-4dec59d6b29f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/calculadora.java" afterPath="$PROJECT_DIR$/src/calculadora.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/numeroExacte.java" afterPath="$PROJECT_DIR$/src/numeroExacte.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,34 +16,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="beWater.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/beWater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="calculadora.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/calculadora.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="310">
+              <caret line="128" column="1" lean-forward="true" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="numeroExacteTutorial.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/numeroExacteTutorial.java">
+      <file leaf-file-name="calculadoraMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/calculadoraMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="60" lean-forward="false" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -53,6 +45,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -64,13 +59,14 @@
         <option value="$PROJECT_DIR$/src/keyboard.java" />
         <option value="$PROJECT_DIR$/src/cicles.java" />
         <option value="$PROJECT_DIR$/src/condicionals.java" />
-        <option value="$PROJECT_DIR$/src/numeroExacte.java" />
         <option value="$PROJECT_DIR$/src/tutorialATS.java" />
         <option value="$PROJECT_DIR$/src/tutorialATSMath.java" />
         <option value="$PROJECT_DIR$/src/tutorialATS2.java" />
         <option value="$PROJECT_DIR$/src/beWater.java" />
-        <option value="$PROJECT_DIR$/src/calculadora.java" />
         <option value="$PROJECT_DIR$/src/numeroExacteTutorial.java" />
+        <option value="$PROJECT_DIR$/src/numeroExacte.java" />
+        <option value="$PROJECT_DIR$/src/calculadoraMain.java" />
+        <option value="$PROJECT_DIR$/src/calculadora.java" />
       </list>
     </option>
   </component>
@@ -79,6 +75,7 @@
     <option name="width" value="1366" />
     <option name="height" value="742" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -110,6 +107,12 @@
               <item name="march2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="march2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="march2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="calculadoraMain" type="1a9f42e2:ClassTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -134,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.tutorialATS2">
+  <component name="RunManager" selected="Application.calculadoraMain">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -216,9 +219,9 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="condicionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="calculadoraMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="condicionals" />
+      <option name="MAIN_CLASS_NAME" value="calculadoraMain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -287,19 +290,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.condicionals" />
-      <item index="1" class="java.lang.String" itemvalue="Application.numeroExacte" />
-      <item index="2" class="java.lang.String" itemvalue="Application.tutorialATS" />
-      <item index="3" class="java.lang.String" itemvalue="Application.tutorialATSMath" />
-      <item index="4" class="java.lang.String" itemvalue="Application.tutorialATS2" />
+      <item index="0" class="java.lang.String" itemvalue="Application.numeroExacte" />
+      <item index="1" class="java.lang.String" itemvalue="Application.tutorialATS" />
+      <item index="2" class="java.lang.String" itemvalue="Application.tutorialATSMath" />
+      <item index="3" class="java.lang.String" itemvalue="Application.tutorialATS2" />
+      <item index="4" class="java.lang.String" itemvalue="Application.calculadoraMain" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.tutorialATS2" />
-        <item index="1" class="java.lang.String" itemvalue="Application.tutorialATSMath" />
-        <item index="2" class="java.lang.String" itemvalue="Application.tutorialATS" />
-        <item index="3" class="java.lang.String" itemvalue="Application.numeroExacte" />
-        <item index="4" class="java.lang.String" itemvalue="Application.condicionals" />
+        <item index="0" class="java.lang.String" itemvalue="Application.calculadoraMain" />
+        <item index="1" class="java.lang.String" itemvalue="Application.tutorialATS2" />
+        <item index="2" class="java.lang.String" itemvalue="Application.tutorialATSMath" />
+        <item index="3" class="java.lang.String" itemvalue="Application.tutorialATS" />
+        <item index="4" class="java.lang.String" itemvalue="Application.numeroExacte" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +332,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28593507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -406,14 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/numeroExacte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/condicionals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -474,21 +469,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculadora.java">
+    <entry file="file://$PROJECT_DIR$/src/numeroExacte.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/numeroExacteTutorial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="60" lean-forward="false" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+        <state relative-caret-position="106">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="703" column="0" lean-forward="false" selection-start-line="703" selection-start-column="0" selection-end-line="703" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StringLatin1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculadora.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="128" column="1" lean-forward="true" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculadoraMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
