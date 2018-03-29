@@ -42,7 +42,7 @@ public class arrays {
 
         for (char x:lletres) { //totalment equivalent al 'for' anterior // ES DIU BUCLE 'FOR EACH'
 
-            System.out.println(x);
+            System.out.println("la lletra és "+x);
         }
     }
 }
