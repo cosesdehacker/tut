@@ -10,7 +10,6 @@ public class barrejarElementsArray {
 
         barreja();
         printArrays();
-        System.out.println(arrayA[3]);
     }
 
     private int[] barreja() {
@@ -19,9 +18,9 @@ public class barrejarElementsArray {
 
         for (int i=0; i<arrayA.length; i++) {
 
-            arrayA[i] = arrayC[counter];
+            arrayC[counter] = arrayA[i];
             counter++;
-            arrayB[i] = arrayC[counter];
+            arrayC[counter] = arrayB[i];
             counter++;
         }
 
