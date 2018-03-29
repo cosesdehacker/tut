@@ -1,3 +1,5 @@
+package jocNumeroExacte;
+
 public class numeroExacte {
 
     public static void main(String[] args) {
