@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a37d114-c2bf-434a-abda-4dec59d6b29f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/march2/exerciciBarrejarElementsArray/barrejarElementsArray.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/march2/exerciciBarrejarElementsArray/barrejarElementsArrayMain.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exerciciDesplaçarIndex/desplaçarIndex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exerciciDesplaçarIndex/desplaçarIndexMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exerciciIndicaOrdreArray/indicaOrdreArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exerciciIndicaOrdreArray/indicaOrdreArrayMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exerciciInsertarNumeroArrayOrdenat/insertarNumeroArrayOrdenat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exerciciInsertarNumeroArrayOrdenat/insertarNumeroArrayOrdenatMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/march2/exerciciBarrejarElementsArray/barrejarElementsArray.class" afterPath="$PROJECT_DIR$/out/production/march2/exerciciBarrejarElementsArray/barrejarElementsArray.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exerciciBarrejarElementsArray/barrejarElementsArray.java" afterPath="$PROJECT_DIR$/src/exerciciBarrejarElementsArray/barrejarElementsArray.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,31 +21,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="barrejarElementsArrayMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exerciciBarrejarElementsArray/barrejarElementsArrayMain.java">
+      <file leaf-file-name="indicaOrdreArrayMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exerciciIndicaOrdreArray/indicaOrdreArrayMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="barrejarElementsArray.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/exerciciBarrejarElementsArray/barrejarElementsArray.java">
+      <file leaf-file-name="indicaOrdreArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exerciciIndicaOrdreArray/indicaOrdreArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="343">
+              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arrays.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrays.java">
+      <file leaf-file-name="desplaçarIndexMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exerciciDesplaçarIndex/desplaçarIndexMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+            <state relative-caret-position="105">
+              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="desplaçarIndex.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exerciciDesplaçarIndex/desplaçarIndex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertarNumeroArrayOrdenatMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exerciciInsertarNumeroArrayOrdenat/insertarNumeroArrayOrdenatMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertarNumeroArrayOrdenat.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exerciciInsertarNumeroArrayOrdenat/insertarNumeroArrayOrdenat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="52" column="27" lean-forward="false" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -102,6 +136,12 @@
         <option value="$PROJECT_DIR$/src/exerciciBarrejarElementsArray/barrejarElementsArrayMain.java" />
         <option value="$PROJECT_DIR$/src/arrays.java" />
         <option value="$PROJECT_DIR$/src/exerciciBarrejarElementsArray/barrejarElementsArray.java" />
+        <option value="$PROJECT_DIR$/src/exerciciIndicaOrdreArray/indicaOrdreArrayMain.java" />
+        <option value="$PROJECT_DIR$/src/exerciciIndicaOrdreArray/indicaOrdreArray.java" />
+        <option value="$PROJECT_DIR$/src/exerciciDesplaçarIndex/desplaçarIndexMain.java" />
+        <option value="$PROJECT_DIR$/src/exerciciDesplaçarIndex/desplaçarIndex.java" />
+        <option value="$PROJECT_DIR$/src/exerciciInsertarNumeroArrayOrdenat/insertarNumeroArrayOrdenatMain.java" />
+        <option value="$PROJECT_DIR$/src/exerciciInsertarNumeroArrayOrdenat/insertarNumeroArrayOrdenat.java" />
       </list>
     </option>
   </component>
@@ -143,7 +183,7 @@
               <item name="march2" type="b2602c69:ProjectViewProjectNode" />
               <item name="march2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exerciciBarrejarElementsArray" type="462c0819:PsiDirectoryNode" />
+              <item name="exerciciInsertarNumeroArrayOrdenat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.barrejarElementsArrayMain">
+  <component name="RunManager" selected="Application.insertarNumeroArrayOrdenatMain">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -287,14 +327,14 @@
       <module name="march2" />
       <envs />
     </configuration>
-    <configuration name="deSetEnSetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="desplaçarIndexMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="exerciciDeSetEnSet.*" />
+          <option name="PATTERN" value="exerciciDesplaçarIndex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="exerciciDeSetEnSet.deSetEnSetMain" />
+      <option name="MAIN_CLASS_NAME" value="exerciciDesplaçarIndex.desplaçarIndexMain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -306,14 +346,14 @@
       <module name="march2" />
       <envs />
     </configuration>
-    <configuration name="mitjanaArrayMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="indicaOrdreArrayMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="exerciciMitjanaPositiusNegatiusArray.*" />
+          <option name="PATTERN" value="exerciciIndicaOrdreArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="exerciciMitjanaPositiusNegatiusArray.mitjanaArrayMain" />
+      <option name="MAIN_CLASS_NAME" value="exerciciIndicaOrdreArray.indicaOrdreArrayMain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -325,14 +365,14 @@
       <module name="march2" />
       <envs />
     </configuration>
-    <configuration name="mitjanaPositiusNegatiusMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="insertarNumeroArrayOrdenatMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="exerciciMitjanesPositiusNegatius.*" />
+          <option name="PATTERN" value="exerciciInsertarNumeroArrayOrdenat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="exerciciMitjanesPositiusNegatius.mitjanaPositiusNegatiusMain" />
+      <option name="MAIN_CLASS_NAME" value="exerciciInsertarNumeroArrayOrdenat.insertarNumeroArrayOrdenatMain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -345,19 +385,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.deSetEnSetMain" />
-      <item index="1" class="java.lang.String" itemvalue="Application.mitjanaPositiusNegatiusMain" />
-      <item index="2" class="java.lang.String" itemvalue="Application.arrays" />
-      <item index="3" class="java.lang.String" itemvalue="Application.mitjanaArrayMain" />
-      <item index="4" class="java.lang.String" itemvalue="Application.barrejarElementsArrayMain" />
+      <item index="0" class="java.lang.String" itemvalue="Application.arrays" />
+      <item index="1" class="java.lang.String" itemvalue="Application.barrejarElementsArrayMain" />
+      <item index="2" class="java.lang.String" itemvalue="Application.indicaOrdreArrayMain" />
+      <item index="3" class="java.lang.String" itemvalue="Application.desplaçarIndexMain" />
+      <item index="4" class="java.lang.String" itemvalue="Application.insertarNumeroArrayOrdenatMain" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.barrejarElementsArrayMain" />
-        <item index="1" class="java.lang.String" itemvalue="Application.arrays" />
-        <item index="2" class="java.lang.String" itemvalue="Application.mitjanaArrayMain" />
-        <item index="3" class="java.lang.String" itemvalue="Application.mitjanaPositiusNegatiusMain" />
-        <item index="4" class="java.lang.String" itemvalue="Application.deSetEnSetMain" />
+        <item index="0" class="java.lang.String" itemvalue="Application.insertarNumeroArrayOrdenatMain" />
+        <item index="1" class="java.lang.String" itemvalue="Application.desplaçarIndexMain" />
+        <item index="2" class="java.lang.String" itemvalue="Application.indicaOrdreArrayMain" />
+        <item index="3" class="java.lang.String" itemvalue="Application.barrejarElementsArrayMain" />
+        <item index="4" class="java.lang.String" itemvalue="Application.arrays" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +434,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28593507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28593507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -634,14 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exerciciDeSetEnSet/deSetEnSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exerciciDeSetEnSet/deSetEnSetMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -690,14 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exerciciBarrejarElementsArray/barrejarElementsArrayMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -710,6 +734,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerciciIndicaOrdreArray/indicaOrdreArrayMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerciciIndicaOrdreArray/indicaOrdreArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerciciDeSetEnSet/deSetEnSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerciciDesplaçarIndex/desplaçarIndexMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerciciInsertarNumeroArrayOrdenat/insertarNumeroArrayOrdenatMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerciciDesplaçarIndex/desplaçarIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerciciInsertarNumeroArrayOrdenat/insertarNumeroArrayOrdenat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="52" column="27" lean-forward="false" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
           <folding />
         </state>
       </provider>
