@@ -5,28 +5,49 @@ import java.util.Scanner;
 public class insertarNumeroArrayOrdenat {
 
     Scanner entry = new Scanner(System.in);
-    int[] array = new int[9];
-    int numeroUsuari;
+    int array[] = new int[9];
+    int numeroUsuari, j=0, posicioNumeroUsuari=0;
+    boolean ascendent = true;
 
     public void insertarNumeroArrayOrdenatMetode() {
 
         omplirArray();
         imprimirArray();
         getNumeroUsuari();
-        insertarEnPosicióCorrecta();
+        determinarPosicióCorrecta();
+        desplaçarIndex();
+        insertarNumeroUsuario();
         imprimirArray();
-
 
     }
 
     private void omplirArray() {
 
-        for (int i = 0; i < 6; i++) {
+        do {
 
-            System.out.println("Introdueix un número sencer: ");
-            array[i] = entry.nextInt();
+            for (int i = 0; i < 6; i++) {
 
-        }
+                System.out.println("Introdueix un número sencer: ");
+                array[i] = entry.nextInt();
+
+            }
+
+            for (int i = 0; i <= 4; i++) {
+
+                if (array[i] < array[i+1]) {
+
+                    ascendent = true;
+
+                } if (array[i] > array[i+1]) {
+
+                    ascendent=false;
+
+                    System.out.println("Torna a començar. Introdueix els números en ordre ascendent, si us plau.");
+                    break;
+                }
+            }
+
+        } while (!ascendent);
     }
 
     private void imprimirArray() {
@@ -44,19 +65,26 @@ public class insertarNumeroArrayOrdenat {
         numeroUsuari = entry.nextInt();
     }
 
-    private void insertarEnPosicióCorrecta() {
+    private void determinarPosicióCorrecta() { //hauria de fer això: https://www.youtube.com/watch?v=DItML3ijT9k
 
-        if (array[0] > numeroUsuari) {
-
-            for (int i=1; i<array.length-1; i++) {
-
-                array[i] = array[i+1];
-            }
-
-            array[0] = numeroUsuari;
+        while (array[j]<numeroUsuari && j<6) {
+            j++;
         }
+        posicioNumeroUsuari=j;
 
-//        for (int i = 1; i < array.length - 1; i++) {
-//        }
+    }
+
+    private void desplaçarIndex() {
+
+        for (int i=array.length-2; i>=posicioNumeroUsuari; i--) {
+
+            array[i+1] = array[i];
+            System.out.println(i);
+        }
+    }
+
+    private void insertarNumeroUsuario() {
+
+        array[j] = numeroUsuari;
     }
 }
