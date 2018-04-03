@@ -40,19 +40,19 @@ public class indicaOrdreArray {
             }
         }
 
-        if (checkIncrease == true && checkDecrease == false) {
+        if (checkIncrease && !checkDecrease) {
 
             System.out.println("Els números d'aquest array estan en ordre creixent.");
 
-        } else if (checkIncrease == false && checkDecrease == true) {
+        } else if (!checkIncrease && checkDecrease) {
 
             System.out.println("Els números d'aquest array estan en ordre decreixent.");
 
-        } else if (checkIncrease == true && checkDecrease) {
+        } else if (checkIncrease && checkDecrease) {
 
             System.out.println("Els números d'aquest array estan desendreçats.");
 
-        } else if (checkIncrease == false && checkDecrease == false) {
+        } else if (!checkIncrease&& !checkDecrease) {
 
             System.out.println("Tots els números d'aquest array són iguals.");
         }
