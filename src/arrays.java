@@ -8,7 +8,7 @@ public class arrays {
         int[] numeros = new int[3];
 
         numeros[0] = 9;
-        numeros [1] = 2;
+        numeros[1] = 2;
 
         System.out.println(numeros[1]);
         System.out.println(numeros[2]); //els índex sense valor assignat s'inicialitzen amb 0
